@@ -1,0 +1,11 @@
+---
+- name: install nginx
+  apt:
+    name: nginx
+
+- name: website cep
+  copy:
+    src: "{{ item }}"
+    dest: /var/www/index.html/
+  with_fileglob:
+    - "html/index.html/*"

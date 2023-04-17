@@ -1,0 +1,30 @@
+---
+- name: upate cahe
+  apt:
+    update_cache: true
+
+- name: update SO
+  apt:
+    name: "*"
+
+- name: Set a hostname
+  hostname:
+    name: Ubuntu-2004
+
+- name: isntall packages
+  apt:
+    name:
+      - vim
+      - curl
+      - telnet
+      - unzip
+      - wget
+      - net-tools
+      - htop
+      - nmap
+
+- name: Add company name
+  user:
+    name: danielmelo
+    shell: /bin/bash
+    home: /home/danielmelo

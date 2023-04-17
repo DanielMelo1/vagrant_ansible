@@ -1,0 +1,1 @@
+{"virtualbox":{"/ansible":{"guestpath":"/ansible","hostpath":"/home/daniellinux/Área de Trabalho/vagrant_ansible/ansible","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/home/daniellinux/Área de Trabalho/vagrant_ansible","disabled":false,"__vagrantfile":true}}}
